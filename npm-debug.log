@@ -1,0 +1,252 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'source-map',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /Users/Jenny/Documents/ghostwill/package.json
+5 warn package.json ghostwill@0.0.1 No repository field.
+6 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/coffee-script/package.json
+7 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/dargs/package.json
+8 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/dateformat/package.json
+9 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/eventemitter2/package.json
+10 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt/package.json
+11 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-clean/package.json
+12 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-compress/package.json
+13 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-concat/package.json
+14 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-copy/package.json
+15 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-cssmin/package.json
+16 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-htmlmin/package.json
+17 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-jshint/package.json
+18 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-sass/package.json
+19 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-uglify/package.json
+20 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-watch/package.json
+21 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-ftp-deploy/package.json
+22 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-legacy-log/package.json
+23 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/grunt-legacy-util/package.json
+24 verbose installManyTop reading scoped package data from /Users/Jenny/Documents/ghostwill/node_modules/time-grunt/package.json
+25 info package.json coffee-script@1.0.1 No repository field.
+26 info package.json coffee-script@1.0.1 modules field is deprecated
+27 info package.json coffee-script@1.0.1 Invalid filename in 'files' list:
+28 verbose readDependencies loading dependencies from /Users/Jenny/Documents/ghostwill/package.json
+29 silly cache add args [ 'source-map', null ]
+30 verbose cache add spec source-map
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'source-map',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'source-map',
+31 silly cache add   rawSpec: '',
+31 silly cache add   spec: 'latest',
+31 silly cache add   type: 'tag' }
+32 silly addNamed source-map@latest
+33 verbose addNamed "latest" is being treated as a dist-tag for source-map
+34 info addNameTag [ 'source-map', 'latest' ]
+35 silly mapToRegistry name source-map
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'source-map',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   name: 'source-map',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri https://registry.npmjs.org/source-map
+40 verbose addNameTag registry:https://registry.npmjs.org/source-map not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/source-map
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 18:06:23
+44 verbose request id e5eb5ded976c1441
+45 verbose etag "BV3S9TIYIGVPHLTHCZKA1S613"
+46 http request GET https://registry.npmjs.org/source-map
+47 http 304 https://registry.npmjs.org/source-map
+48 verbose headers { date: 'Tue, 25 Oct 2016 10:06:26 GMT',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   'cache-control': 'max-age=300',
+48 verbose headers   etag: '"BV3S9TIYIGVPHLTHCZKA1S613"',
+48 verbose headers   age: '111',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'x-served-by': 'cache-lcy1146-LCY',
+48 verbose headers   'x-cache': 'HIT',
+48 verbose headers   'x-cache-hits': '14',
+48 verbose headers   'x-timer': 'S1477389986.879790,VS0,VE0',
+48 verbose headers   vary: 'Accept-Encoding' }
+49 silly get cb [ 304,
+49 silly get   { date: 'Tue, 25 Oct 2016 10:06:26 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     'cache-control': 'max-age=300',
+49 silly get     etag: '"BV3S9TIYIGVPHLTHCZKA1S613"',
+49 silly get     age: '111',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-lcy1146-LCY',
+49 silly get     'x-cache': 'HIT',
+49 silly get     'x-cache-hits': '14',
+49 silly get     'x-timer': 'S1477389986.879790,VS0,VE0',
+49 silly get     vary: 'Accept-Encoding' } ]
+50 verbose etag https://registry.npmjs.org/source-map from cache
+51 verbose get saving source-map to /Users/Jenny/.npm/registry.npmjs.org/source-map/.cache.json
+52 verbose correctMkdir /Users/Jenny/.npm correctMkdir not in flight; initializing
+53 silly addNameTag next cb for source-map with tag latest
+54 silly addNamed source-map@0.5.6
+55 verbose addNamed "0.5.6" is a plain semver version for source-map
+56 silly cache afterAdd source-map@0.5.6
+57 verbose afterAdd /Users/Jenny/.npm/source-map/0.5.6/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/Jenny/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/Jenny/.npm/source-map/0.5.6/package/package.json written
+60 silly install resolved [ { name: 'source-map',
+60 silly install resolved     description: 'Generates and consumes source maps',
+60 silly install resolved     version: '0.5.6',
+60 silly install resolved     homepage: 'https://github.com/mozilla/source-map',
+60 silly install resolved     author: { name: 'Nick Fitzgerald', email: 'nfitzgerald@mozilla.com' },
+60 silly install resolved     contributors:
+60 silly install resolved      [ [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object],
+60 silly install resolved        [Object] ],
+60 silly install resolved     repository:
+60 silly install resolved      { type: 'git',
+60 silly install resolved        url: 'git+ssh://git@github.com/mozilla/source-map.git' },
+60 silly install resolved     main: './source-map.js',
+60 silly install resolved     files:
+60 silly install resolved      [ 'source-map.js',
+60 silly install resolved        'lib/',
+60 silly install resolved        'dist/source-map.debug.js',
+60 silly install resolved        'dist/source-map.js',
+60 silly install resolved        'dist/source-map.min.js',
+60 silly install resolved        'dist/source-map.min.js.map' ],
+60 silly install resolved     engines: { node: '>=0.10.0' },
+60 silly install resolved     license: 'BSD-3-Clause',
+60 silly install resolved     scripts:
+60 silly install resolved      { test: 'npm run build && node test/run-tests.js',
+60 silly install resolved        build: 'webpack --color',
+60 silly install resolved        toc: 'doctoc --title \'## Table of Contents\' README.md && doctoc --title \'## Table of Contents\' CONTRIBUTING.md' },
+60 silly install resolved     devDependencies: { doctoc: '^0.15.0', webpack: '^1.12.0' },
+60 silly install resolved     gitHead: 'aa0398ced67beebea34f0d36f766505656c344f6',
+60 silly install resolved     bugs: { url: 'https://github.com/mozilla/source-map/issues' },
+60 silly install resolved     _id: 'source-map@0.5.6',
+60 silly install resolved     _shasum: '75ce38f52bf0733c5a7f0c118d81334a2bb5f412',
+60 silly install resolved     _from: 'source-map@latest',
+60 silly install resolved     _npmVersion: '3.3.12',
+60 silly install resolved     _nodeVersion: '5.3.0',
+60 silly install resolved     _npmUser: { name: 'nickfitzgerald', email: 'fitzgen@gmail.com' },
+60 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+60 silly install resolved     dist:
+60 silly install resolved      { shasum: '75ce38f52bf0733c5a7f0c118d81334a2bb5f412',
+60 silly install resolved        tarball: 'https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz' },
+60 silly install resolved     _npmOperationalInternal:
+60 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+60 silly install resolved        tmp: 'tmp/source-map-0.5.6.tgz_1462209962516_0.9263619624543935' },
+60 silly install resolved     directories: {},
+60 silly install resolved     _resolved: 'https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz',
+60 silly install resolved     readme: 'ERROR: No README data found!' } ]
+61 info install source-map@0.5.6 into /Users/Jenny/Documents/ghostwill
+62 info installOne source-map@0.5.6
+63 verbose installOne of source-map to /Users/Jenny/Documents/ghostwill not in flight; installing
+64 verbose correctMkdir /Users/Jenny/.npm/_locks correctMkdir not in flight; initializing
+65 verbose lock using /Users/Jenny/.npm/_locks/source-map-c27c454d9aa23aa9.lock for /Users/Jenny/Documents/ghostwill/node_modules/source-map
+66 silly install write writing source-map 0.5.6 to /Users/Jenny/Documents/ghostwill/node_modules/source-map
+67 verbose unbuild node_modules/source-map
+68 silly gentlyRm /Users/Jenny/Documents/ghostwill/node_modules/source-map is being purged from base /Users/Jenny/Documents/ghostwill
+69 verbose gentlyRm don't care about contents; nuking /Users/Jenny/Documents/ghostwill/node_modules/source-map
+70 verbose tar unpack /Users/Jenny/.npm/source-map/0.5.6/package.tgz
+71 verbose tar unpacking to /Users/Jenny/Documents/ghostwill/node_modules/source-map
+72 silly gentlyRm /Users/Jenny/Documents/ghostwill/node_modules/source-map is being purged
+73 verbose gentlyRm don't care about contents; nuking /Users/Jenny/Documents/ghostwill/node_modules/source-map
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm extractEntry LICENSE
+78 silly gunzTarPerm extractEntry source-map.js
+79 silly gunzTarPerm extractEntry lib/array-set.js
+80 silly gunzTarPerm extractEntry lib/base64-vlq.js
+81 silly gunzTarPerm extractEntry lib/base64.js
+82 silly gunzTarPerm extractEntry lib/binary-search.js
+83 silly gunzTarPerm extractEntry lib/mapping-list.js
+84 silly gunzTarPerm extractEntry lib/quick-sort.js
+85 silly gunzTarPerm extractEntry lib/source-map-consumer.js
+86 silly gunzTarPerm extractEntry lib/source-map-generator.js
+87 silly gunzTarPerm extractEntry lib/source-node.js
+88 silly gunzTarPerm extractEntry lib/util.js
+89 silly gunzTarPerm extractEntry dist/source-map.debug.js
+90 silly gunzTarPerm extractEntry dist/source-map.js
+91 silly gunzTarPerm extractEntry dist/source-map.min.js
+92 silly gunzTarPerm extractEntry dist/source-map.min.js.map
+93 silly gunzTarPerm extractEntry CHANGELOG.md
+94 verbose write writing to /Users/Jenny/Documents/ghostwill/node_modules/source-map/package.json
+95 info preinstall source-map@0.5.6
+96 verbose readDependencies loading dependencies from /Users/Jenny/Documents/ghostwill/node_modules/source-map/package.json
+97 verbose readDependencies loading dependencies from /Users/Jenny/Documents/ghostwill/node_modules/source-map/package.json
+98 silly install resolved []
+99 verbose about to build /Users/Jenny/Documents/ghostwill/node_modules/source-map
+100 info build /Users/Jenny/Documents/ghostwill/node_modules/source-map
+101 info linkStuff source-map@0.5.6
+102 silly linkStuff source-map@0.5.6 has /Users/Jenny/Documents/ghostwill/node_modules as its parent node_modules
+103 verbose linkBins source-map@0.5.6
+104 verbose linkMans source-map@0.5.6
+105 verbose rebuildBundles source-map@0.5.6
+106 info install source-map@0.5.6
+107 info postinstall source-map@0.5.6
+108 verbose unlock done using /Users/Jenny/.npm/_locks/source-map-c27c454d9aa23aa9.lock for /Users/Jenny/Documents/ghostwill/node_modules/source-map
+109 verbose validateInstall loading /Users/Jenny/Documents/ghostwill/package.json for validation
+110 warn unmet dependency /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-sass requires dargs@'~0.1.0' but will load
+110 warn unmet dependency /Users/Jenny/Documents/ghostwill/node_modules/dargs,
+110 warn unmet dependency which is version 5.1.0
+111 warn unmet dependency /Users/Jenny/Documents/ghostwill/node_modules/grunt-ftp-deploy requires grunt@'^0.4.2' but will load
+111 warn unmet dependency /Users/Jenny/Documents/ghostwill/node_modules/grunt,
+111 warn unmet dependency which is version 1.0.1
+112 warn unmet dependency /Users/Jenny/Documents/ghostwill/node_modules/grunt-contrib-uglify/node_modules/uglify-js requires source-map@'0.1.34' but will load
+112 warn unmet dependency /Users/Jenny/Documents/ghostwill/node_modules/source-map,
+112 warn unmet dependency which is version 0.5.6
+113 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+113 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+113 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+113 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+113 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+113 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+113 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+113 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+113 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+113 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+113 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+114 verbose cwd /Users/Jenny/Documents/ghostwill
+115 error Darwin 16.0.0
+116 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "source-map" "--save-dev"
+117 error node v4.5.0
+118 error npm  v2.15.9
+119 error code EPEERINVALID
+120 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+121 verbose exit [ 1, true ]
